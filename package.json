@@ -1,0 +1,13 @@
+{
+  "name": "SuperFluid-Finance",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Sam-Devs/SuperFluid-Finance.git",
+  "author": "Sam Ayorinde <41350405+Sam-Devs@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@superfluid-finance/js-sdk": "^0.4.3",
+    "@truffle/contract": "^4.3.21",
+    "web3": "^1.3.6"
+  }
+}
