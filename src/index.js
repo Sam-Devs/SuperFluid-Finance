@@ -1,5 +1,8 @@
 const SuperfluidSDK = require("@superfluid-finance/js-sdk");
 const Web3 = require("web3");
+const HDWalletProvider = require("truffle-hdwallet-provider");
+const mnemonic = "hhskjklkl";
+
 
 const superfluid = async () => {
   try {
@@ -7,6 +10,7 @@ const superfluid = async () => {
       web3: new Web3(
         "https://eth-goerli.alchemyapi.io/v2/gYsNxGzbVTOC0D_liQiO-e4vqPIDC18w"
       ),
+      // provider: new HDWalletProvider(mnemonic, "https://eth-goerli.alchemyapi.io/v2/gYsNxGzbVTOC0D_liQiO-e4vqPIDC18w")
     });
     await sf.initialize();
 
